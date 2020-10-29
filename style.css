@@ -121,3 +121,16 @@ form ion-icon {
   letter-spacing: 0.05rem;
   line-height: 2rem;
 }
+
+.container.initial .brand {
+  font-size: 7rem;
+}
+
+.container.initial {
+  max-width: 800px;
+}
+
+.container.initial form input {
+  padding: 20px;
+  font-size: 3rem;
+}
