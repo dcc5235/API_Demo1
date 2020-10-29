@@ -33,8 +33,9 @@ function generateHTML(results){
             <a class="view-button" href="${result.recipe.url}" target="_blank">View Recipe</a>
           </div>
           <p class="item-data">Calories: ${result.recipe.calories.toFixed(0)}</p>
-          <p class="item-data">Diet: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>
-          <p class="item-data">Restrictions: ${result.recipe.healthLabels}</p>
+          <p class="item-data">Serving(s): ${result.recipe.yield}</p>
+          <p class="item-data">Diet: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'Unavailable'}</p>
+          <p class="item-data">Health: ${result.recipe.healthLabels}</p>
         </div>
     `
   })
